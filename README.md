@@ -30,3 +30,7 @@ This system operates in **Real-Time**, fetching live data from the Open-Meteo AP
 3. **Physics Analysis:** It calculates the "Steering Flow" to detect if the storm is moving or stalling.
 4. **AI Correction:** The `CycloneTrackCorrector` model predicts a lat/lon shift based on hidden atmospheric patterns.
 5. **Decision Support:** A risk algorithm combines probability and impact to generate an alert level (Yellow/Orange/Red).
+### 📦 Installation
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/sanjjey/Real-Time-Cyclone-analysis.git](https://github.com/sanjjey/Real-Time-Cyclone-analysis.git)
